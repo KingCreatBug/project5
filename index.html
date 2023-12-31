@@ -105,7 +105,7 @@
 
         <!-- Style CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
-        <title>Project 5</title>
+        <title>CeloBank</title>
     </head>
     <body>
         <header class="header">
@@ -127,20 +127,24 @@
                         <nav class="header__navbar">
                             <ul class="navbar-list">
                                 <li>
-                                    <a href="#!" class="navbar__link"> Home </a>
+                                    <a href="#home" class="navbar__link">
+                                        Home
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="navbar__link">
+                                    <a href="#products" class="navbar__link">
                                         Products
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="navbar__link">
+                                    <a href="#features" class="navbar__link">
                                         Features
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="navbar__link"> Blog </a>
+                                    <a href="#blog" class="navbar__link">
+                                        Blog
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -155,7 +159,7 @@
         </header>
         <main>
             <!-- Hero -->
-            <section class="hero">
+            <section id="home" class="hero">
                 <div class="container">
                     <div class="hero__inner">
                         <!-- Hero Content -->
@@ -232,11 +236,15 @@
                 </div>
             </section>
             <!-- product -->
-            <section class="product">
+            <section id="products" data-aos="zoom-out-down" class="product">
                 <div class="container">
                     <div class="product__inner">
                         <!-- Product media -->
-                        <div class="product__media">
+                        <div
+                            class="product__media"
+                            data-aos="flip-up"
+                            data-aos-anchor-placement="bottom-bottom"
+                        >
                             <figure class="product__media--images">
                                 <img
                                     src="./assets/img/product-media.png"
@@ -305,7 +313,7 @@
                 </div>
             </section>
             <!-- Features -->
-            <section class="features">
+            <section id="features" class="features" data-aos="zoom-out-down">
                 <div class="container">
                     <div class="features__inner">
                         <section class="features__content">
@@ -341,7 +349,10 @@
                                     class="features__img"
                                 />
                             </figure>
-                            <div class="features__card--big">
+                            <div
+                                class="features__card--big"
+                                data-aos="fade-left"
+                            >
                                 <img
                                     src="./assets/icon/features-card1.svg"
                                     alt=""
@@ -362,7 +373,10 @@
                                     </time>
                                 </div>
                             </div>
-                            <div class="features__card--small">
+                            <div
+                                class="features__card--small"
+                                data-aos="fade-left"
+                            >
                                 <img
                                     src="./assets/icon/features-card2.svg"
                                     alt=""
@@ -371,7 +385,10 @@
                                 <p class="card-small__money">$1250</p>
                             </div>
                         </div>
-                        <div class="features__media-bottom">
+                        <div
+                            class="features__media-bottom"
+                            data-aos="fade-right"
+                        >
                             <figure>
                                 <img
                                     src="./assets/img/features-img.png"
@@ -410,6 +427,7 @@
                         </div>
                         <section
                             class="features__content features__content--bottom"
+                            data-aos="fade-left"
                         >
                             <p class="section-sub">Digital Smart Wallet</p>
                             <h2
@@ -439,7 +457,7 @@
                 </div>
             </section>
             <!-- review -->
-            <section class="review">
+            <section class="review" data-aos="zoom-out-down">
                 <div class="container">
                     <section class="review__content">
                         <p class="section-sub">Our Testimonial</p>
@@ -507,7 +525,7 @@
                 </div>
             </section>
             <!-- Blog -->
-            <section class="blog">
+            <section id="blog" class="blog" data-aos="zoom-out-down">
                 <div class="container">
                     <section class="blog__content">
                         <div>
@@ -624,7 +642,7 @@
                 </div>
             </section>
             <!-- APP -->
-            <section class="app">
+            <section class="app" data-aos="zoom-out-down">
                 <div class="container">
                     <dic class="app__inner">
                         <p class="section-sub app__sub">Our App</p>
